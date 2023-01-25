@@ -10,3 +10,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+# My custom settings
+php-config/
+docker-compose.yaml
+Dockerfile
