@@ -2,4 +2,6 @@
 
 require "vendor/autoload.php";
 
-$app = new \Slim\App;
+$config['displayErrorDetails'] = true;
+
+$app = new \Slim\App(['settings' => $config]);
