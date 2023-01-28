@@ -2,7 +2,7 @@
 
 require "../bootstrap.php";
 
-use app\controllers\HomeController;
+use App\controllers\HomeController;
 
 $app->group('/admin', function($app) {
     $app->get('/conf', function() {
