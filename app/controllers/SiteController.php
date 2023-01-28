@@ -2,7 +2,7 @@
 
 namespace App\controllers;
 
-class HomeController extends Controller {
+class SiteController extends Controller {
     public function index() {
         $this->view('home', [
             'nome'  => 'Eduardo',

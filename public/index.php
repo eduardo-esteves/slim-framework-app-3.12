@@ -2,7 +2,7 @@
 
 require "../bootstrap.php";
 
-use App\controllers\HomeController;
+use App\controllers\SiteController;
 
 $app->group('/admin', function($app) {
     $app->get('/conf', function() {
@@ -10,6 +10,6 @@ $app->group('/admin', function($app) {
     });
 });
 
-$app->get('/', HomeController::class . ':index');
+$app->get('/', SiteController::class . ':index');
 
 $app->run();
