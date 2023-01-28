@@ -9,4 +9,8 @@ class SiteController extends Controller {
             'title' => 'Home',
         ]);
     }
+
+    public function contact() {
+        return 'Pagina contact';
+    }
 }

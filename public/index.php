@@ -11,5 +11,6 @@ $app->group('/admin', function($app) {
 });
 
 $app->get('/', SiteController::class . ':index');
+$app->get('/contact', SiteController::class . ':contact');
 
 $app->run();
