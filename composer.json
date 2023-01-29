@@ -10,5 +10,13 @@
         "files": [
             "app/functions/helpers.php"
         ]
-    }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Esteves",
+            "email": "eduardostevesdasilva@hotmail.com",
+            "homepage": "https://edusites.com.br/",
+            "role": "Developer"
+        }
+    ]
 }
