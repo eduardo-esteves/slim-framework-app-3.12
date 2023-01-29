@@ -4,4 +4,19 @@
 
 <h2> Home </h2>
 
+<table class="table table-striped">
+    <tr>
+        <td>ID</td>
+        <td>Title</td>
+        <td>Autor</td>
+    </tr>
+{% for post in posts %}
+    <tr>
+        <td>{{ post.id}}</td>
+        <td>{{ post.title}}</td>
+        <td>{{ post.author}}</td>
+    </tr>
+{% endfor %}
+</table>
+
 {% endblock %}
